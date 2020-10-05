@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Flash.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Land.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="AIController.cpp">
+      <Filter>AI Code</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetwork.cpp">
+      <Filter>AI Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssetManager.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINITIONS.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Flash.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Land.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="State.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.hpp">
+      <Filter>Core code &amp; Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="AIController.h">
+      <Filter>AI Code</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetwork.h">
+      <Filter>AI Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\audio\Hit.wav">
+      <Filter>Core code &amp; Assets</Filter>
+    </Media>
+    <Media Include="Resources\audio\Point.wav">
+      <Filter>Core code &amp; Assets</Filter>
+    </Media>
+    <Media Include="Resources\audio\Wing.wav">
+      <Filter>Core code &amp; Assets</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\res\bird-01.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-02.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-03.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-04.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\Bronze-Medal.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\Game-Over-Body.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\Game-Over-Title.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\Gold-Medal.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\InvisibleScoringPipe.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\land.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\PipeDown.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\PipeUp.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\Platinum-Medal.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\PlayButton.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\Silver-Medal.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\sky.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\Splash Background.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+    <Image Include="Resources\res\title.png">
+      <Filter>Core code &amp; Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\fonts\arial.ttf">
+      <Filter>Core code &amp; Assets</Filter>
+    </Font>
+    <Font Include="Resources\fonts\FlappyFont.ttf">
+      <Filter>Core code &amp; Assets</Filter>
+    </Font>
+    <Font Include="Resources\fonts\Marker Felt.ttf">
+      <Filter>Core code &amp; Assets</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AI Code">
+      <UniqueIdentifier>{da2cb35d-2a4b-4616-a4f7-f8a7b16766f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core code &amp; Assets">
+      <UniqueIdentifier>{908122a9-2515-4d27-86f3-39552f92b980}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Clickable.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenuController.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterController.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="throwProjectile.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerAndMonsterController.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerButton.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerController.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AIController.cpp">
+      <Filter>AI Code</Filter>
+    </ClCompile>
+    <ClCompile Include="GAmanager.cpp">
+      <Filter>AI Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Chromosome.cpp">
+      <Filter>AI Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Clickable.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenuController.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterController.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="throwProjectile.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerAndMonsterController.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerButton.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerController.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AIController.h">
+      <Filter>AI Code</Filter>
+    </ClInclude>
+    <ClInclude Include="GAmanager.h">
+      <Filter>AI Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Chromosome.h">
+      <Filter>AI Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game Headers">
+      <UniqueIdentifier>{8a69630e-9719-451f-b637-8db78f7fd3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source">
+      <UniqueIdentifier>{5a324045-9eaf-46aa-bd0e-e5f2b00104a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Code">
+      <UniqueIdentifier>{09d177bd-c1df-4e4e-857f-fb10307d7636}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

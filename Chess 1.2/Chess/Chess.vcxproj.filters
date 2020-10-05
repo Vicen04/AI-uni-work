@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core Code">
+      <UniqueIdentifier>{2c17750c-71b0-4604-992f-8ede6a75afe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI Code">
+      <UniqueIdentifier>{f649546f-8676-4c64-86ca-037254a11318}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Chess\Board.cpp">
+      <Filter>Core Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess\Gameplay.cpp">
+      <Filter>Core Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess\GameStatus.cpp">
+      <Filter>Core Code</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Core Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Core Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess\Move.cpp">
+      <Filter>Core Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess\Piece.cpp">
+      <Filter>Core Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess\Square.cpp">
+      <Filter>Core Code</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp.cpp">
+      <Filter>Core Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess\Game.cpp">
+      <Filter>Core Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessPlayer.cpp">
+      <Filter>AI Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chess\PieceColor.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess\Board.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess\Game.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess\Gameplay.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess\GameStatus.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess\Move.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess\MoveType.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess\Piece.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess\PieceType.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Chess\Square.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Core Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessPlayer.h">
+      <Filter>AI Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

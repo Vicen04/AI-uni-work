@@ -1,0 +1,6 @@
+.cproject
+.project
+arial
+SFML/*
+.settings/*
+/Debug/
